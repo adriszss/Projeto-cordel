@@ -1,0 +1,92 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= família = Sriracha & display=swap');
+
+
+:root{--fonte-header:'Passion One', cursive;
+--fonte-cordel:'Sriracha', cursive;}
+
+
+
+*{margin: 0;
+padding: 0;}
+
+    body{overflow-x: hidden;}
+
+    header{text-align: center;
+           padding-left: 20px;
+           padding-right: 20px;
+           height: 130px;
+           background-color: black;}
+
+        h1{font-family:var(--fonte-header);
+           color:white;
+           font-variant: small-caps;
+           font-size: 50px;
+           padding-top: 30px;}
+
+    header>p{color:#fff;}
+
+header>p>a{ color: #fff;
+text-decoration: none;
+font-weight: 1000;
+}
+
+a:hover{text-decoration: underline;}
+   
+.imagem1{ width: 100%;
+   background-image: url(/imagens/background001.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+.imagem2{
+    width: 100%;
+   background-image: url(/imagens/background002.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   }
+
+.paragrafo{font-family: var(--fonte-cordel);
+          display: inline-block;
+          color: #fff;
+          font-weight: 500;
+          margin: 30px;
+          background-color:rgba(0, 0, 0, 0.411);
+          padding: 20px;
+}
+
+.normal{
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;   
+    font-style: italic;
+    font-family: var(--fonte-cordel);
+    text-align: left;}
+
+
+.paragrafo2{
+    font-family: var(--fonte-cordel);
+    background-color:rgba(0, 0, 0, 0.411);
+    color: #fff;
+    font-weight: 500;
+    margin: 30px;
+    padding: 20px;
+    display: inline-block;
+}
+        
+         
+footer{background-color: black;
+font-family: var(--fonte-cordel);
+font-size: 0.8em;
+padding: 5px;
+margin-top: 30px;
+text-align: center;
+color: white;}
+  
